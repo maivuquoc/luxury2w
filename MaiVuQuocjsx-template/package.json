@@ -15,8 +15,8 @@
     "axios": "^1.8.4",
     "bootstrap": "^5.3.5",
     "file-saver": "^2.0.5",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-redux": "^9.2.0",
     "react-toastify": "^11.0.5",
     "redux": "^5.0.1",
@@ -34,5 +34,8 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
     "vite": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
