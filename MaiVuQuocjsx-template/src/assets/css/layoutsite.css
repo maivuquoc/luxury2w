@@ -1,0 +1,175 @@
+.bg-footer {
+    background-color: rgba(128, 128, 128, 0.1); 
+}
+
+.bg-footer ul {
+    color: black;
+}
+
+
+.form-input {
+    border: 1px solid red;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    transition: 0.25s ease;
+}
+
+.form-input:focus {
+    border-color: red;
+}
+
+.form-field {
+    position: relative;
+}
+
+/* .form-label {
+    position: absolute;
+    top: 25%;
+    transform: translate(-50%);
+    left: 53px;
+    user-select: none;
+    color: black;
+    pointer-events: none;
+    transition: 0.25s ease;
+} */
+
+.form-input:not(:placeholder-shown)+.form-label,
+.form-input:focus+.form-label {
+    top: -18px;
+    padding: 5px;
+    display: inline-block;
+    background-color: white;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-link {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    /* nền sáng */
+    color: #0d6efd;
+    /* màu chữ xanh dương */
+    border-radius: 4px;
+}
+
+.dropdown-item {
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 15px;
+}
+
+/* Tùy chỉnh màu sắc cho thông báo lỗi */
+.Toastify__toast--error {
+    background-color: #d9534f;
+    /* Màu đỏ */
+    color: white;
+}
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .img-hover-effect {
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-container:hover .img-hover-effect {
+    transform: scale(1.05);
+  }
+  
+  .image-text {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container:hover .image-text {
+    opacity: 1;
+  }
+  
+  /* cửa hàng */
+  .overlay-box {
+    position: absolute;
+    top: 20px;       /* Cách mép trên nhiều hơn */
+    left: 20px;      /* Cách bên trái nhiều hơn */
+    width: 500px;    /* Khung rộng hơn */
+    z-index: 2;
+    padding: 20px;   /* Đệm nội dung bên trong */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bóng đổ nhẹ */
+    border-radius: 8px; /* Bo góc đẹp hơn */
+}
+
+/* thế giới luxury */
+.image-hover-wrapper {
+    cursor: pointer;
+    position: relative;
+}
+
+.hover-zoom {
+    transition: transform 0.4s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.image-hover-wrapper:hover .hover-zoom {
+    transform: scale(1.05); /* Phóng to ảnh một chút khi hover */
+}
+
+.hover-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-hover-wrapper:hover .hover-icon {
+    opacity: 1; /* Hiển thị icon khi hover */
+}
+
+.icon-circle {
+    width: 60px;              /* Kích thước vòng tròn */
+    height: 60px;             /* Kích thước vòng tròn */
+    border-radius: 50%;       /* Để tạo hình tròn */
+    background-color: white; /* Màu nền vòng tròn */
+    display: flex;
+    justify-content: center;  /* Căn giữa theo chiều ngang */
+    align-items: center;      /* Căn giữa theo chiều dọc */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Đổ bóng cho vòng tròn */
+}
+
+.icon-circle i {
+    font-size: 30px; /* Kích thước icon */
+    color: #000;     /* Màu sắc icon */
+}
+
+.text-center h3 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
